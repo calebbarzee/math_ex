@@ -49,9 +49,9 @@ fn main() {
 }
 
 fn generate_terms () -> (u32, u32, u32){
-    let x = rand::thread_rng().gen_range(2..=15);
-    let y = rand::thread_rng().gen_range(2..=15);
-    let z = rand::thread_rng().gen_range(2..=15);
+    let x = rand::thread_rng().gen_range(2..=12);
+    let y = rand::thread_rng().gen_range(2..=12);
+    let z = rand::thread_rng().gen_range(2..=12);
     return (x, y, z);
 }
 
