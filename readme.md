@@ -17,7 +17,18 @@ To get started, you'll need to install `rustup`, which is the recommended way to
    ```shell
 	~ rustc --version
    ```
-5. Build and run the program using Cargo with the following commands:
+5. Clone the repository to your machine:
+
+   ```shell
+	~ git clone https://github.com/calebbarzee/math_mini_games
+   ```
+
+6. Change the working directory to the cloned repository:
+   ```shell
+	~ cd math_mini_games
+   ```
+
+7. Build and run the program using Cargo with the following commands:
    ```shell
 	~ cargo build
 	~ cargo run
