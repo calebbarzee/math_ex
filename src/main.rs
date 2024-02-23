@@ -52,7 +52,7 @@ fn generate_terms () -> (u32, u32, u32){
     let x = rand::thread_rng().gen_range(2..=12);
     let y = rand::thread_rng().gen_range(2..=12);
     let z = rand::thread_rng().gen_range(2..=12);
-    return (x, y, z);
+    (x, y, z)
 }
 
 fn handle_input() -> u32 {
@@ -61,5 +61,8 @@ fn handle_input() -> u32 {
         .expect("Failed to read line");
     let input: u32 = input.trim().parse()
         .expect("Please type a number!");
-    return input;
+    input
 }
+
+// refactor to make random number generation more flexible (modularize out into function)
+// 
