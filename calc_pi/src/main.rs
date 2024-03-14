@@ -1,12 +1,11 @@
 mod calc;
 
 use crate::calc::pi_calculator::{Task, DEFAULT_PRECISION};
-use rug::{Float};
-use std::env;
+use rug::Float;
 use std::thread;
 use std::collections::VecDeque;
-use std::sync::{mpsc};
-use std::sync::mpsc::{Receiver};
+use std::sync::mpsc;
+use std::sync::mpsc::Receiver;
 use std::time::Instant;
 
 use clap::{Arg, App};

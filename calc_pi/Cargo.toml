@@ -1,8 +1,8 @@
 [package]
 name = "calc_pi"
 version = "0.1.0"
-authors = ["Caleb Barzee <barzeec@gmail.com>", Lyuboslav Karev <lyubo.karev@gmail.com>"]
 edition = "2021"
+authors = ["Caleb Barzee <barzeec@gmail.com>", "Lyuboslav Karev <lyubo.karev@gmail.com>"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
